@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/trabalhoJorge?serverTimeZone=ADT
+    username: postgres
+    password: 123
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+
